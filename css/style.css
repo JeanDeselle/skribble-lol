@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6em;
+
+}
+
+:root {
+    --noir: black;
+    --blanc: white;
+}
+
+.upCase {
+    text-transform: uppercase;
+}
+
+#canvas{
+    border: 1px solid black;
+    /* flex: 4;  */
+    /* width: 60%;
+    max-width: 700px;
+    min-width: 700px;
+    max-height: 700px;
+    min-height: 700px; */
+    
+}
+
+#draw{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tools div,.colors div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    
+}
+
+.tools div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools  i{
+font-size: 6rem;
+}
+
